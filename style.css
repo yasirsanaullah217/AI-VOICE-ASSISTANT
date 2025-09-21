@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(32, 48, 0, 0.82);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: orangered;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 3rem;
+    color: #333;
+}
+
+.mic-wrapper {
+    margin-top: 20px;
+}
+
+.mic-btn {
+    background-color: #008CBA;
+    color: white;
+    font-size: 1.5rem;
+    padding: 15px 30px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.mic-btn:active {
+    background-color: #005f73;
+}
+
+#conversation-history {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #444;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.history-entry {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid rgba(204, 204, 204, 0.72);
+    border-radius: 5px;
+    background-color: rgba(100, 159, 17, 0.75);
+}
+
+.user-input {
+    font-weight: bold;
+    color: #005f73;
+}
+
+.ai-response {
+    margin-top: 5px;
+    color: #333;
+}
